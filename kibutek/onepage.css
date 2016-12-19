@@ -663,8 +663,13 @@ textarea.border-form-control {
 	Responsive
 ---------------------------------------------------------------------------- */
 
-
+.percentagetag {
+	display:block;
+}
 @media (max-width: 991px) {
+	.percentagetag {
+		display:none;
+	}
 
 	#logo { height: 70px !important; }
 
@@ -707,4 +712,3 @@ textarea.border-form-control {
 	.overlay-menu #primary-menu.dark ul { background-color: transparent; }
 
 }
-
