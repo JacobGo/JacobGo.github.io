@@ -242,7 +242,6 @@ h2 {
   width: 75%; }
   @media (min-width: 1024px) {
     .main__project, .main__project--first {
-      margin-top: -20px;
       float: left;
       width: 500px;
       margin-left: 110px; } }
@@ -251,6 +250,8 @@ h2 {
       width: 100%; } }
   .main__project:last-child, .main__project--first:last-child {
     margin-bottom: 0; }
+  .main__project--first {
+    margin-left: 0; }
   .main__project-title, .main__resume {
     margin: 3px 0 10px 0;
     color: black;
