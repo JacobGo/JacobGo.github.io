@@ -74,7 +74,7 @@ h2 {
       left: 0;
       top: 0;
       height: 100%;
-      width: 45%; } }
+      width: 30%; } }
 
 .container-detail {
   display: inline-block;
@@ -86,7 +86,7 @@ h2 {
       top: 0;
       right: 0;
       height: 100%;
-      width: 50%;
+      width: 65%;
       overflow-y: scroll;
       -webkit-overflow-scrolling: touch;
       overflow-x: hidden; } }
@@ -227,7 +227,7 @@ h2 {
     .main__copy {
       float: left;
       width: 75%;
-      max-width: 500px; } }
+      max-width: 700px; } }
   .main__copy a {
     padding: 0 4px 2px 4px;
     border-bottom: 2px solid #FAEd26;
@@ -243,7 +243,7 @@ h2 {
   @media (min-width: 1024px) {
     .main__project, .main__project--first {
       float: left;
-      width: 500px;
+      max-width: 700px;
       margin-left: 110px; } }
   @media (max-width: 768px) {
     .main__project, .main__project--first {
@@ -302,7 +302,7 @@ h2 {
   height: 40px; }
   @media (min-width: 1024px) {
     .main__experience {
-      max-width: 500px;
+      max-width: 700px;
       margin-left: 110px; }
       .main__experience:first-of-type {
         margin-top: 3px; } }
