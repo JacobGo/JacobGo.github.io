@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      (function (e, t, n, i, s, a, c) {
+        e[n] =
+          e[n] ||
+          function () {
+            (e[n].q = e[n].q || []).push(arguments);
+          };
+        a = t.createElement(i);
+        c = t.getElementsByTagName(i)[0];
+        a.async = true;
+        a.src = s;
+        c.parentNode.insertBefore(a, c);
+      })(
+        window,
+        document,
+        "galite",
+        "script",
+        "https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js"
+      );
+
+      galite("create", "UA-140388915-1", "auto");
+      galite("send", "pageview");
+    </script>
+  </head>
+  <body>
+    <h1>Jacob Goldman</h1>
+    <p>I live in Cambridge, MA and work at Google.</p>
+    <p>
+      <a href="https://www.linkedin.com/in/jacob-goldman-759280127/"
+        >LinkedIn</a
+      >
+      <a href="https://www.github.com/JacobGo">GitHub</a>
+    </p>
+  </body>
+</html>
